@@ -1,0 +1,20 @@
+AWS/.terraform.lock.hcl
+AWS/.terraform
+AWS/terraform.tfstate*
+
+
+DigitalOCean/.terraform.lock.hcl
+DigitalOCean/.terraform
+DigitalOCean/terraform.tfstate*
+
+# Project folders - each deployment creates an isolated project
+projects/
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+!*.tfvars.example
+
+# Claude Code skill tester sessions (may contain sensitive config)
+.claude/test-sessions/*.json

@@ -1,0 +1,7 @@
+# Test Sessions Directory
+
+This directory stores skill test session recordings created by the skill-tester.
+
+Session files are named: `<skill-name>-<timestamp>.json`
+
+Example: `coe-infra-deploy-aws-20250319-143022.json`
